@@ -42,7 +42,7 @@ Issues
 
 Make sure that you have all of the requisites named above, and try again.
 
-If you still have problems, you are welcome to mark this as an Issue on [the repo's github Issues page](https://github.com/DeadDork/resume_document_class/issues). Be sure to be detailed.
+If you still have problems, you are welcome to mark this as an Issue on the repo's [Issues page](https://github.com/DeadDork/resume_document_class/issues). Be sure to be detailed.
 
 That said, unless it is a problem with the class itself, I probably won't address it in depth. That sort of thing is better resolved on [Stack Overflow](http://stackoverflow.com/) and [The TeX Stack Exchange](http://tex.stackexchange.com).
 
