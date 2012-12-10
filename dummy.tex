@@ -1,0 +1,161 @@
+% Page layout
+\documentclass{resume}
+%
+% Packages
+\usepackage[top=0.8in,bottom=0.8in,left=0.45in,right=0.45in]{geometry}
+\usepackage{paralist}
+\usepackage{hyperref}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\hypersetup{
+	colorlinks,
+	urlcolor=darkblue,
+}
+%
+% Begin resume
+\begin{document}
+%
+% Title
+\name{Lauren Epsom}
+\address{123 Madeupstreet, Made Up City, MU 01234}
+\phone{(123) 456 - 7890}
+\email{laurenepsom@gmail.com}
+\maketitle
+%
+% Experience
+\section{experience}
+%
+% Student at Hacker School
+\employer{\textbf{Yoyodyne, Inc.}}
+\location{New York City, NY}
+\jobtitle{Hacker}
+\dates{October 2012 - Present}
+\begin{position}
+	\begin{compactitem}
+		\item
+			Learned to link to a number of free software licenses:
+			\begin{compactitem}
+				\item
+					\href{http://www.gnu.org/licenses/gpl.html}{\bf{GPL 3:}} Everything it touches must freeeeeee
+				\item
+					\href{http://directory.fsf.org/wiki/License:ISC}{\bf{ISC:}} You can do pretty much whatever with anything under this license
+				\item
+					\href{http://sam.zoy.org/wtfpl/}{\bf{WTFPL:}} You can do what the fuck you want to Public License
+			\end{compactitem}
+	\end{compactitem}
+\end{position}
+% Experience as a research programmer at True North Health Center
+\employer{\textbf{Lorem Ipsum, Inc.}}
+\location{Rome, Italy}
+\jobtitle{Latin Scholar}
+\dates{2010 - 2012}
+\begin{position}
+	\begin{compactitem}
+		% Fill out project bullets
+		\item
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit
+			\begin{compactitem}
+				\item
+					Nam a nibh eros
+				\item
+					Nulla lacus magna, posuere quis adipiscing at, dignissim eu sapien
+				\item
+					Vivamus eu urna in elit adipiscing malesuada
+			\end{compactitem}
+		\item
+			Sed sodales commodo ligula posuere ullamcorper
+			\begin{compactitem}
+				\item
+					Fusce dapibus turpis quis sem pharetra condimentum
+				\item
+					Suspendisse semper, sapien at pulvinar congue, augue libero hendrerit augue, a consequat augue nisl ut sem
+				\item
+					Aliquam erat volutpat. Morbi vitae odio molestie velit euismod dictum
+			\end{compactitem}
+		\item
+			Phasellus sed venenatis quam
+	\end{compactitem}
+\end{position}
+%
+% Experience as research assistant
+\employer{\textbf{University of Chicago,} Medical School}
+\location{Chicago, IL}
+\jobtitle{Gravedigger's Assistant}
+\dates{2006 - 2008}
+\begin{position}
+	\begin{compactitem}
+		\item
+			Found where the bodies are buried
+		\item
+			Built and maintained innovative experimental gravesites
+		\item
+			Led the team that discovered the 1st, 2nd, and 3rd unique burial sites of St. Cantfindme
+		\item
+			Wrote the best-selling \emph{Gravedigger's Pocket Handbook}
+	\end{compactitem}
+\end{position}
+%
+% Education
+%
+% University of Chicago
+\section{education}
+\schoolname{University of Chicago}
+\location{Chicago, IL}
+%\degree{BA (Incomplete)}
+%\dates{2004 - 2008}
+\begin{school}
+	\begin{compactitem}
+		\item
+			Coursework on Bob Loblaw, Beer Drinking and Pizza Consumption
+		\item
+			Awards: Easy A in Physics
+	\end{compactitem}
+\end{school}
+%
+% Pre-U of C transfer studies at SBCC
+\schoolname{Technion}
+\location{Haifa, Israel}
+%\degree{Four Year Transfer}
+%\dates{2002 - 2004}
+\begin{school}
+	\begin{compactitem}
+		\item
+			General coursework in being a clever, clever boy
+		\item
+			Awards: cleverest boy in math, physics, chemistry, CS, electrical engineering and daydreaming
+	\end{compactitem}
+\end{school}
+%
+% Skills and interests
+% !!!Split into two sections: skills, interests.
+\section{skills}
+%\misc{Skills}
+%\begin{miscellaneous}
+	\begin{compactitem}
+		\item
+			Lying through teeth, feeling cleverer than is merited, tapping foot furiously
+		\item
+			Juggling battleaxes, claymores, shurikens and DND figurines
+		\item
+			Optimizing player characters for role-playing games
+		\item
+			Experienced in Tcl scripting and Go programming; proficient in Mercury, Perl, {\large\LaTeX}, S, Haskell, FORTRAN, Prolog, Plankalk\"{u}l; familiar with OCAML, ClojureScript and F\#
+	\end{compactitem}
+%\end{miscellaneous}
+%
+% Interests
+\section{interests}
+%\misc{Interests}
+%\misc{Interests}
+%\begin{miscellaneous}
+	\begin{compactitem}
+		\item
+			Can talk out of own ass, your ears off, and in tongues
+		\item
+			Study abroad programs in Inferno, Purgatorio and Paradiso
+		\item
+			Trying to take this seriously, but failing
+	\end{compactitem}
+%\end{miscellaneous}
+%
+\end{document}
