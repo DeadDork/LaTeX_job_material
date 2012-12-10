@@ -1,9 +1,9 @@
 % resume.cls
-% Copyright 2010 Nimrod Omer <nimrodomer@gmail.com>
+% Copyright 2010 Nimrod Omer <https://github.com/DeadDork>
 %
-% This LaTeX package is largely based on the work of Ankur Dave <ankurdave@gmail.com>
+% This LaTeX document class is largely based on the work of Ankur Dave <ankurdave@gmail.com>
 %
-% The model resume for this package was provided by Brendan Marten
+% The model resume for this class was provided by a good friend who wishes to remain unnamed.
 % 
 % Licensed under the CC-GNU GPL version 2.0 or later.
 % See http://creativecommons.org/licenses/GPL/2.0
@@ -29,7 +29,7 @@
 \makeatother
 
 % margins
-%\usepackage[top=0.5in,bottom=0.5in,left=1in,right=1in]{geometry}
+%\usepackage[top=0.5in,bottom=0.5in,left=1in,right=1in]{geometry} % This is an OK page geometry, but I like to set my own in the source.
 
 % fonts
 \usepackage{times}
@@ -106,11 +106,11 @@
 %	}
 %\makeatother
 %
-% Variant two (good if you have a degrees)
+% Variant two
 \makeatletter
 	\newcommand{\schoolname}[1]{\def \@schoolname {#1}}
 	\schoolname{}
-	\dates{} % Is this even needed?
+	\dates{}
 
 	\newenvironment{school}{
 		\addtolength{\rightskip}{0.1in}
