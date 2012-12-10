@@ -1,0 +1,47 @@
+Resume Document Class
+=====================
+
+This is a document class that makes a pretty decent resume, if I may say so myself
+
+Requirements
+------------
+
+For starters, you need to get some kind of LaTeX distribution. I have tested this with pdfTeX 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian), which I got from Ubuntu 12.04's apt package repository.
+
+Beyond that, you need the following LaTeX packages:
+*	nopageno
+*	geometry
+*	times
+*	paralist
+*	atbeginend
+*	hyperref
+*	color
+
+That should be enough to compile *dummy.tex*.
+
+To Use
+------
+
+Open up dummy.tex with your favorite text editor, and hack away!
+
+Further instruction, though, goes beyond the scope of this document.
+
+The [LaTeX WikiBook](https://en.wikibooks.org/wiki/LaTeX) is a good resource if you are interested in getting fancy.
+
+To Compile
+----------
+
+Simply compile your .tex file in the same directory as resume.cls. For example:
+
+		pdflatex dummy.tex
+
+That should create a number of files. If you want to see what the document looks like, open up dummmy.tex with your favorite PDF viewer.
+
+Issues
+------
+
+Make sure that you have all of the requisites named above, and try again.
+
+If you still have problems, you are welcome to mark this as an Issue on [the github page](https://github.com/DeadDork/resume_document_class/issues). Be sure to be detailed.
+
+That said, unless it is a problem with the class itself, I probably won't address it in depth. That sort of thing is better resolved on [Stack Overflow](http://stackoverflow.com/) and [The TeX Stack Exchange](http://tex.stackexchange.com).
