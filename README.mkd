@@ -1,7 +1,7 @@
-Resume Document Class
-=====================
+Job Application Document Classes
+================================
 
-This is a document class that makes a pretty decent resume, if I may say so myself
+These are the document classes I use for the cover letter & resume I use when applying for jobs.
 
 Requirements
 ------------
@@ -17,25 +17,25 @@ Beyond that, you need the following LaTeX packages:
 *	hyperref
 *	color
 
-That should be enough to compile *dummy.tex*.
+That should be enough to compile *dummy_cover.tex* and *dummy_resume.tex*.
 
 To Use
 ------
 
-Open up *dummy.tex* with your favorite text editor, and hack away!
+Open up the dummy files with your favorite text editor, and hack away!
 
-Further instruction, though, goes beyond the scope of this document.
+LaTeX usage, though, goes beyond the scope of this document.
 
 The [LaTeX WikiBook](https://en.wikibooks.org/wiki/LaTeX) is a good resource if you are interested in getting fancy.
 
 To Compile
 ----------
 
-Simply compile your *.tex* file in the same directory as *resume.cls*. For example:
+Simply compile your *.tex* file in the same directory as the relevant *.cls* file. For example:
 
-		pdflatex dummy.tex
+		pdflatex dummy_resume.tex
 
-That should create a number of files. If you want to see what the document looks like, open up *dummmy.pdf* with your favorite PDF viewer.
+That should create a number of files, but the only one you will likely care about is *dummmy_resume.pdf*. To see what it looks like, just open it up with your favorite PDF viewer.
 
 Issues
 ------
