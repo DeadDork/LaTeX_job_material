@@ -1,12 +1,12 @@
 Job Application Document Classes
 ================================
 
-These are the document classes I use for the cover letter & resume I use when applying for jobs.
+These are the document classes I use for cover letters & resumes when applying for jobs.
 
 Requirements
 ------------
 
-For starters, you need to get some kind of LaTeX distribution. I have tested this with pdfTeX 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian), which I got from Ubuntu 12.04's apt package repository.
+For starters, you need to get some kind of TeX distribution. I have tested this with pdfTeX 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian), which I got from Ubuntu 12.04's apt package repository.
 
 Beyond that, you need the following LaTeX packages:
 *	nopageno
@@ -22,7 +22,7 @@ That should be enough to compile *dummy_cover.tex* and *dummy_resume.tex*.
 To Use
 ------
 
-Open up the dummy files with your favorite text editor, and hack away!
+Open up a dummy file with your favorite text editor, and hack away!
 
 LaTeX usage, though, goes beyond the scope of this document.
 
@@ -35,7 +35,7 @@ Simply compile your *.tex* file in the same directory as the relevant *.cls* fil
 
 		pdflatex dummy_resume.tex
 
-That should create a number of files, but the only one you will likely care about is *dummmy_resume.pdf*. To see what it looks like, just open it up with your favorite PDF viewer.
+That should create a number of files, but the only one you will likely care about is *dummmy_xxxxx.pdf*. To see what it looks like, just open it up with your favorite PDF viewer.
 
 Issues
 ------
@@ -44,7 +44,7 @@ Make sure that you have all of the requisites named above, and try again.
 
 If you still have problems, you are welcome to mark this as an Issue on the repo's [Issues page](https://github.com/DeadDork/resume_document_class/issues). Be sure to be detailed.
 
-That said, unless it is a problem with the class itself, I probably won't address it in depth. That sort of thing is better resolved on [Stack Overflow](http://stackoverflow.com/) and [The TeX Stack Exchange](http://tex.stackexchange.com).
+That said, unless it is a problem with the document classes itself, I probably won't address it in depth. That sort of thing is better resolved on [Stack Overflow](http://stackoverflow.com/) and [The TeX Stack Exchange](http://tex.stackexchange.com).
 
 --
 
