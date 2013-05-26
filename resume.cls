@@ -43,7 +43,7 @@
 % lists
 \renewcommand{\labelitemii}{$\circ$}
 \usepackage{paralist}
-\usepackage{atbeginend}
+\usepackage{atbeginend} % Found on [http://www.eng.cam.ac.uk/help/tpl/textprocessing/atbeginend.sty]. No license. Presumably FOSS from Cambridge University's IT Dept.
 \BeforeBegin{compactitem}{
 	\setlength{\leftmargini}{0.5in}
 }
