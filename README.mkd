@@ -6,18 +6,18 @@ These are the document classes I use for cover letters & resumes when applying f
 Requirements
 ------------
 
-For starters, you need to get some kind of TeX distribution. I have tested this with pdfTeX 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian), which I got from Ubuntu 12.04's apt package repository.
+For starters, you need to get some kind of TeX distribution. I have tested this with pdfTeX 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian), which I got from Ubuntu 12.04's apt package repository. I have also tested this with pdfTeX 3.1415926-2.4-1.40.13 (TeX Live 2012 MacTex), which I downloaded the package from the [MacTeX website](https://www.tug.org/mactex/).
 
 Beyond that, you need the following LaTeX packages:
 *	nopageno
 *	geometry
 *	times
 *	paralist
-*	atbeginend
+*	atbeginend (included)
 *	hyperref
 *	color
 
-That should be enough to compile *dummy_cover.tex* and *dummy_resume.tex*.
+That should be enough to compile `dummy_cover.tex` and `dummy_resume.tex`.
 
 To Use
 ------
@@ -44,7 +44,7 @@ Make sure that you have all of the requisites named above, and try again.
 
 If you still have problems, you are welcome to mark this as an Issue on the repo's [Issues page](https://github.com/DeadDork/resume_document_class/issues). Be sure to be detailed.
 
-That said, unless it is a problem with the document classes itself, I probably won't address it in depth. That sort of thing is better resolved on [Stack Overflow](http://stackoverflow.com/) and [The TeX Stack Exchange](http://tex.stackexchange.com).
+That said, unless it is a problem with the document class itself, I probably won't be able to address it in depth. That sort of thing is better resolved on [Stack Overflow](http://stackoverflow.com/) and [The TeX Stack Exchange](http://tex.stackexchange.com).
 
 --
 
